@@ -15,6 +15,34 @@
 		40B47E2426ECDF6A00AC66D6 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B47E2326ECDF6A00AC66D6 /* main.swift */; };
 		40B47E2A26ECE0DC00AC66D6 /* MutexAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */; };
 		40B47E2B26ECE0DC00AC66D6 /* MutexAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */; };
+		40FEA593271B404200D4EE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA592271B404200D4EE6D /* AppDelegate.swift */; };
+		40FEA597271B404200D4EE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA596271B404200D4EE6D /* ViewController.swift */; };
+		40FEA59A271B404200D4EE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA598271B404200D4EE6D /* Main.storyboard */; };
+		40FEA59C271B404600D4EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA59B271B404600D4EE6D /* Assets.xcassets */; };
+		40FEA59F271B404600D4EE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA59D271B404600D4EE6D /* LaunchScreen.storyboard */; };
+		40FEA5A5271B405C00D4EE6D /* XConcurrencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 40FEA5A4271B405C00D4EE6D /* XConcurrencyKit */; };
+		40FEA5A7271B405C00D4EE6D /* Mutexes in Frameworks */ = {isa = PBXBuildFile; productRef = 40FEA5A6271B405C00D4EE6D /* Mutexes */; };
+		40FEA5AF271B40C900D4EE6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5AE271B40C900D4EE6D /* AppDelegate.swift */; };
+		40FEA5B3271B40C900D4EE6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5B2271B40C900D4EE6D /* ViewController.swift */; };
+		40FEA5B6271B40C900D4EE6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA5B4271B40C900D4EE6D /* Main.storyboard */; };
+		40FEA5B8271B40CB00D4EE6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA5B7271B40CB00D4EE6D /* Assets.xcassets */; };
+		40FEA5BB271B40CB00D4EE6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FEA5B9271B40CB00D4EE6D /* LaunchScreen.storyboard */; };
+		40FEA5C1271B40DF00D4EE6D /* XConcurrencyKit in Frameworks */ = {isa = PBXBuildFile; productRef = 40FEA5C0271B40DF00D4EE6D /* XConcurrencyKit */; };
+		40FEA5C3271B40DF00D4EE6D /* Mutexes in Frameworks */ = {isa = PBXBuildFile; productRef = 40FEA5C2271B40DF00D4EE6D /* Mutexes */; };
+		40FEA5C4271B42FA00D4EE6D /* MutexAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */; };
+		40FEA5C5271B42FC00D4EE6D /* MutexAdapters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */; };
+		40FEA5C7271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */; };
+		40FEA5C8271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */; };
+		40FEA5C9271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */; };
+		40FEA5CA271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */; };
+		40FEA5CC271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */; };
+		40FEA5CD271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */; };
+		40FEA5CE271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */; };
+		40FEA5CF271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */; };
+		40FEA5D1271B623300D4EE6D /* RenderFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5D0271B623300D4EE6D /* RenderFormat.swift */; };
+		40FEA5D2271B623300D4EE6D /* RenderFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5D0271B623300D4EE6D /* RenderFormat.swift */; };
+		40FEA5D3271B623300D4EE6D /* RenderFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5D0271B623300D4EE6D /* RenderFormat.swift */; };
+		40FEA5D4271B623300D4EE6D /* RenderFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FEA5D0271B623300D4EE6D /* RenderFormat.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -44,6 +72,23 @@
 		40B47E2126ECDF6A00AC66D6 /* MutexBenchmarkContended */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MutexBenchmarkContended; sourceTree = BUILT_PRODUCTS_DIR; };
 		40B47E2326ECDF6A00AC66D6 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MutexAdapters.swift; sourceTree = "<group>"; };
+		40FEA590271B404200D4EE6D /* MutexBenchmarkNonContendedIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutexBenchmarkNonContendedIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FEA592271B404200D4EE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40FEA596271B404200D4EE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40FEA599271B404200D4EE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FEA59B271B404600D4EE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40FEA59E271B404600D4EE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40FEA5A0271B404600D4EE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FEA5AC271B40C900D4EE6D /* MutexBenchmarkContendedIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutexBenchmarkContendedIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FEA5AE271B40C900D4EE6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40FEA5B2271B40C900D4EE6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40FEA5B5271B40C900D4EE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40FEA5B7271B40CB00D4EE6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40FEA5BA271B40CB00D4EE6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40FEA5BC271B40CB00D4EE6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContendedBenchmarking.swift; sourceTree = "<group>"; };
+		40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NonContendedBenchmarking.swift; sourceTree = "<group>"; };
+		40FEA5D0271B623300D4EE6D /* RenderFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderFormat.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +110,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40FEA58D271B404200D4EE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA5A7271B405C00D4EE6D /* Mutexes in Frameworks */,
+				40FEA5A5271B405C00D4EE6D /* XConcurrencyKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FEA5A9271B40C900D4EE6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA5C3271B40DF00D4EE6D /* Mutexes in Frameworks */,
+				40FEA5C1271B40DF00D4EE6D /* XConcurrencyKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -74,6 +137,8 @@
 				40B47E1526ECDEBD00AC66D6 /* MutexBenchmarkNonContended */,
 				40B47E2226ECDF6A00AC66D6 /* MutexBenchmarkContended */,
 				40B47E2826ECE0B400AC66D6 /* Shared */,
+				40FEA591271B404200D4EE6D /* MutexBenchmarkNonContendedIOS */,
+				40FEA5AD271B40C900D4EE6D /* MutexBenchmarkContendedIOS */,
 				40B47E1426ECDEBD00AC66D6 /* Products */,
 				40B47E3526ECE1BF00AC66D6 /* Frameworks */,
 			);
@@ -84,6 +149,8 @@
 			children = (
 				40B47E1326ECDEBD00AC66D6 /* MutexBenchmarkNonContended */,
 				40B47E2126ECDF6A00AC66D6 /* MutexBenchmarkContended */,
+				40FEA590271B404200D4EE6D /* MutexBenchmarkNonContendedIOS.app */,
+				40FEA5AC271B40C900D4EE6D /* MutexBenchmarkContendedIOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				40B47E2926ECE0DC00AC66D6 /* MutexAdapters.swift */,
+				40FEA5C6271B561300D4EE6D /* ContendedBenchmarking.swift */,
+				40FEA5D0271B623300D4EE6D /* RenderFormat.swift */,
+				40FEA5CB271B61D800D4EE6D /* NonContendedBenchmarking.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -117,6 +187,32 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		40FEA591271B404200D4EE6D /* MutexBenchmarkNonContendedIOS */ = {
+			isa = PBXGroup;
+			children = (
+				40FEA592271B404200D4EE6D /* AppDelegate.swift */,
+				40FEA596271B404200D4EE6D /* ViewController.swift */,
+				40FEA598271B404200D4EE6D /* Main.storyboard */,
+				40FEA59B271B404600D4EE6D /* Assets.xcassets */,
+				40FEA59D271B404600D4EE6D /* LaunchScreen.storyboard */,
+				40FEA5A0271B404600D4EE6D /* Info.plist */,
+			);
+			path = MutexBenchmarkNonContendedIOS;
+			sourceTree = "<group>";
+		};
+		40FEA5AD271B40C900D4EE6D /* MutexBenchmarkContendedIOS */ = {
+			isa = PBXGroup;
+			children = (
+				40FEA5AE271B40C900D4EE6D /* AppDelegate.swift */,
+				40FEA5B2271B40C900D4EE6D /* ViewController.swift */,
+				40FEA5B4271B40C900D4EE6D /* Main.storyboard */,
+				40FEA5B7271B40CB00D4EE6D /* Assets.xcassets */,
+				40FEA5B9271B40CB00D4EE6D /* LaunchScreen.storyboard */,
+				40FEA5BC271B40CB00D4EE6D /* Info.plist */,
+			);
+			path = MutexBenchmarkContendedIOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +260,48 @@
 			productReference = 40B47E2126ECDF6A00AC66D6 /* MutexBenchmarkContended */;
 			productType = "com.apple.product-type.tool";
 		};
+		40FEA58F271B404200D4EE6D /* MutexBenchmarkNonContendedIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FEA5A3271B404600D4EE6D /* Build configuration list for PBXNativeTarget "MutexBenchmarkNonContendedIOS" */;
+			buildPhases = (
+				40FEA58C271B404200D4EE6D /* Sources */,
+				40FEA58D271B404200D4EE6D /* Frameworks */,
+				40FEA58E271B404200D4EE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutexBenchmarkNonContendedIOS;
+			packageProductDependencies = (
+				40FEA5A4271B405C00D4EE6D /* XConcurrencyKit */,
+				40FEA5A6271B405C00D4EE6D /* Mutexes */,
+			);
+			productName = MutexBenchmarkNonContendedIOS;
+			productReference = 40FEA590271B404200D4EE6D /* MutexBenchmarkNonContendedIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40FEA5AB271B40C900D4EE6D /* MutexBenchmarkContendedIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40FEA5BD271B40CB00D4EE6D /* Build configuration list for PBXNativeTarget "MutexBenchmarkContendedIOS" */;
+			buildPhases = (
+				40FEA5A8271B40C900D4EE6D /* Sources */,
+				40FEA5A9271B40C900D4EE6D /* Frameworks */,
+				40FEA5AA271B40C900D4EE6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutexBenchmarkContendedIOS;
+			packageProductDependencies = (
+				40FEA5C0271B40DF00D4EE6D /* XConcurrencyKit */,
+				40FEA5C2271B40DF00D4EE6D /* Mutexes */,
+			);
+			productName = MutexBenchmarkContendedIOS;
+			productReference = 40FEA5AC271B40C900D4EE6D /* MutexBenchmarkContendedIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -178,6 +316,12 @@
 						CreatedOnToolsVersion = 11.4.1;
 					};
 					40B47E2026ECDF6A00AC66D6 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					40FEA58F271B404200D4EE6D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					40FEA5AB271B40C900D4EE6D = {
 						CreatedOnToolsVersion = 11.4.1;
 					};
 				};
@@ -201,15 +345,43 @@
 			targets = (
 				40B47E1226ECDEBD00AC66D6 /* MutexBenchmarkNonContended */,
 				40B47E2026ECDF6A00AC66D6 /* MutexBenchmarkContended */,
+				40FEA58F271B404200D4EE6D /* MutexBenchmarkNonContendedIOS */,
+				40FEA5AB271B40C900D4EE6D /* MutexBenchmarkContendedIOS */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40FEA58E271B404200D4EE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA59F271B404600D4EE6D /* LaunchScreen.storyboard in Resources */,
+				40FEA59C271B404600D4EE6D /* Assets.xcassets in Resources */,
+				40FEA59A271B404200D4EE6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FEA5AA271B40C900D4EE6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA5BB271B40CB00D4EE6D /* LaunchScreen.storyboard in Resources */,
+				40FEA5B8271B40CB00D4EE6D /* Assets.xcassets in Resources */,
+				40FEA5B6271B40C900D4EE6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		40B47E0F26ECDEBD00AC66D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FEA5D1271B623300D4EE6D /* RenderFormat.swift in Sources */,
+				40FEA5C7271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */,
+				40FEA5CC271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */,
 				40B47E1726ECDEBD00AC66D6 /* main.swift in Sources */,
 				40B47E2A26ECE0DC00AC66D6 /* MutexAdapters.swift in Sources */,
 			);
@@ -219,12 +391,76 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40FEA5D2271B623300D4EE6D /* RenderFormat.swift in Sources */,
+				40FEA5C8271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */,
+				40FEA5CD271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */,
 				40B47E2426ECDF6A00AC66D6 /* main.swift in Sources */,
 				40B47E2B26ECE0DC00AC66D6 /* MutexAdapters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		40FEA58C271B404200D4EE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA5CE271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */,
+				40FEA5D3271B623300D4EE6D /* RenderFormat.swift in Sources */,
+				40FEA5C4271B42FA00D4EE6D /* MutexAdapters.swift in Sources */,
+				40FEA597271B404200D4EE6D /* ViewController.swift in Sources */,
+				40FEA5C9271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */,
+				40FEA593271B404200D4EE6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40FEA5A8271B40C900D4EE6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40FEA5CF271B61D800D4EE6D /* NonContendedBenchmarking.swift in Sources */,
+				40FEA5D4271B623300D4EE6D /* RenderFormat.swift in Sources */,
+				40FEA5C5271B42FC00D4EE6D /* MutexAdapters.swift in Sources */,
+				40FEA5B3271B40C900D4EE6D /* ViewController.swift in Sources */,
+				40FEA5CA271B561300D4EE6D /* ContendedBenchmarking.swift in Sources */,
+				40FEA5AF271B40C900D4EE6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40FEA598271B404200D4EE6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FEA599271B404200D4EE6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FEA59D271B404600D4EE6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FEA59E271B404600D4EE6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		40FEA5B4271B40C900D4EE6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FEA5B5271B40C900D4EE6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40FEA5B9271B40CB00D4EE6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40FEA5BA271B40CB00D4EE6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		40B47E1826ECDEBD00AC66D6 /* Debug */ = {
@@ -392,6 +628,88 @@
 			};
 			name = Release;
 		};
+		40FEA5A1271B404600D4EE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				INFOPLIST_FILE = MutexBenchmarkNonContendedIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irizen.MutexBenchmarkNonContendedIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40FEA5A2271B404600D4EE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				INFOPLIST_FILE = MutexBenchmarkNonContendedIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irizen.MutexBenchmarkNonContendedIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40FEA5BE271B40CB00D4EE6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				INFOPLIST_FILE = MutexBenchmarkContendedIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irizen.MutexBenchmarkContendedIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40FEA5BF271B40CB00D4EE6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PE3M477MG2;
+				INFOPLIST_FILE = MutexBenchmarkContendedIOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.irizen.MutexBenchmarkContendedIOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -418,6 +736,24 @@
 			buildConfigurations = (
 				40B47E2626ECDF6A00AC66D6 /* Debug */,
 				40B47E2726ECDF6A00AC66D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FEA5A3271B404600D4EE6D /* Build configuration list for PBXNativeTarget "MutexBenchmarkNonContendedIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FEA5A1271B404600D4EE6D /* Debug */,
+				40FEA5A2271B404600D4EE6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40FEA5BD271B40CB00D4EE6D /* Build configuration list for PBXNativeTarget "MutexBenchmarkContendedIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40FEA5BE271B40CB00D4EE6D /* Debug */,
+				40FEA5BF271B40CB00D4EE6D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -460,6 +796,26 @@
 			productName = XConcurrencyKit;
 		};
 		40A2B0F2271A9D3500322449 /* Mutexes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40D5D631271A9BD600EBC316 /* XCRemoteSwiftPackageReference "Mutexes" */;
+			productName = Mutexes;
+		};
+		40FEA5A4271B405C00D4EE6D /* XConcurrencyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4085A088271A94AB00712807 /* XCRemoteSwiftPackageReference "XConcurrencyKit" */;
+			productName = XConcurrencyKit;
+		};
+		40FEA5A6271B405C00D4EE6D /* Mutexes */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 40D5D631271A9BD600EBC316 /* XCRemoteSwiftPackageReference "Mutexes" */;
+			productName = Mutexes;
+		};
+		40FEA5C0271B40DF00D4EE6D /* XConcurrencyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4085A088271A94AB00712807 /* XCRemoteSwiftPackageReference "XConcurrencyKit" */;
+			productName = XConcurrencyKit;
+		};
+		40FEA5C2271B40DF00D4EE6D /* Mutexes */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 40D5D631271A9BD600EBC316 /* XCRemoteSwiftPackageReference "Mutexes" */;
 			productName = Mutexes;
